@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# But don't ignore directories — this allows git to recurse into subfolders
+!*/
+
+# Track Python files in root and all nested directories
+!*.py
+!**/*.py
+
+# Keep the .gitignore itself tracked
+!.gitignore
